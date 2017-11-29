@@ -4,3 +4,6 @@ node_js:
 deploy:
   provider: surge
   skip_cleanup: true
+notifications:
+  slack: uvudevclub:HthyoiZ5Igmcf4WdttRG6Gcb
+    on_success: always
