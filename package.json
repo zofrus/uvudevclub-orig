@@ -1,0 +1,30 @@
+{
+  "name": "uvudevclub_website",
+  "version": "0.1.0",
+  "description": "uvu dev clubs website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zofrus/uvudevclub.git"
+  },
+  "author": "Jason Fuller <me@fullerjason.com> (http://zofrus.io)",
+  "contributors": [
+    "Jason Fuller <me@fullerjason.com> (http://zofrus.io)"
+  ],
+  "keywords": [
+    "uvu dev club",
+    "uvu",
+    "static"
+  ],
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/zofrus/uvudevclub/issues"
+  },
+  "homepage": "http://uvudevclub.org",
+  "devDependencies": {
+    "surge": "^0.19.0"
+  }
+}
