@@ -7,7 +7,9 @@ insert site screenshot here later
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/zofrus/uvudevclub/master/LICENSE)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page)
+[![Build Status](https://travis-ci.com/zofrus/uvudevclub.svg?token=2bqNMZdBCthM3zofcmeS&branch=master)](https://travis-ci.com/zofrus/uvudevclub)
+
+TODO: -- still need to update everything below (zofrus)
 
 ## Download and Installation
 
