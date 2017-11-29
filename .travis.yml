@@ -5,5 +5,7 @@ deploy:
   provider: surge
   skip_cleanup: true
 notifications:
-  slack: uvudevclub:HthyoiZ5Igmcf4WdttRG6Gcb
+  slack: 
+    rooms:
+      - uvudevclub:HthyoiZ5Igmcf4WdttRG6Gcb#builds_and_deploys
     on_success: always
