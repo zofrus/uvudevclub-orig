@@ -7,9 +7,9 @@ insert site screenshot here later
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/zofrus/uvudevclub/master/LICENSE)
-[![Build Status](https://travis-ci.com/zofrus/uvudevclub.svg?token=2bqNMZdBCthM3zofcmeS&branch=master)](https://travis-ci.com/zofrus/uvudevclub)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.com/zofrus/uvudevclub)
 
-TODO: -- still need to update everything below (zofrus)
+# TODO: -- still need to update everything below so ignore it for now (zofrus)
 
 ## Download and Installation
 
