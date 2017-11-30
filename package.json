@@ -24,6 +24,11 @@
     "url": "https://github.com/zofrus/uvudevclub/issues"
   },
   "homepage": "http://uvudevclub.org",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "font-awesome": "4.7.0",
+    "jquery": "^3.2.1"
+  },
   "devDependencies": {
     "surge": "^0.19.0"
   }
