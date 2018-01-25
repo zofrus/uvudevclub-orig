@@ -88,8 +88,9 @@ cursor: pointer;
 #steve{
   background-image: url("steve.jpg");
 }
-#mason{
-  background-image: url("mason.jpeg");
+#membersSideList{
+  background-image: url("membersSide.jpeg");
+  height: 700px;
 }
 #mitchell{
   background-image: url("mitchell.jpeg");
@@ -286,6 +287,9 @@ body, h1, h2, h3, h4, h5, h6 {
   z-index: 4;
   color: white;
   text-align: center;
+  background-color: #255c36 !important;
+}
+.membersBanner{
   background-color: #255c36 !important;
 }
 @media(max-width:767px) {
