@@ -19,7 +19,6 @@
     "static"
   ],
   "license": "MIT",
-  "private": false,
   "bugs": {
     "url": "https://github.com/zofrus/uvudevclub/issues"
   },
