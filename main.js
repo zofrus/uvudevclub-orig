@@ -30,4 +30,28 @@ $(document).ready(function(){
       $("#noobList").hide();
     }
   });
+
+  setTimeout(function(){
+    $('#banner-comp').show("linear");
+    $('#sponsorButton').show("linear");
+    $('#banner').show("linear");
+  }, 3000)
+
+  $('#banner-comp').click(function(){
+    $('#banner-comp').animate({opacity: 0 }, 500);
+    $('#close-banner').hide();
+    $('#banner').animate({opacity: 0 }, 500);
+    $('#banner-comp').hide(1000);
+    $('#banner').hide(1000);
+    $('#sponsorButton').hide();
+  });
+
+  $('#close-banner').click(function(){
+    $('#banner-comp').animate({opacity: 0 }, 500);
+    $('#close-banner').hide();
+    $('#banner').animate({opacity: 0 }, 500);
+    $('#banner-comp').hide(1000);
+    $('#banner').hide(1000);
+    $('#sponsorButton').hide();
+  })
 });
