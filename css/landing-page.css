@@ -17,6 +17,81 @@ a:hover{
   color: black;
 }
 
+#close-banner:hover{
+cursor: pointer;
+}
+
+#close-banner{
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 11;
+}
+#banner-comp{
+  display: none;
+  width: 100%;
+  min-height: 20%;
+  background-color: #fdc02f;
+  position: fixed;
+  top: 65px;
+  z-index: 15;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: white;
+  text-align: center;
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(204,204,204,1);
+  box-shadow: 3px 4px 5px 0px rgba(204,204,204,1);
+  -webkit-animation: neon1 3s ease-in-out 20 alternate;
+  -moz-animation: neon1 3s ease-in-out 20 alternate;
+  animation: neon1 3s ease-in-out 20 alternate;
+}
+#banner-comp a{
+  text-decoration: none;
+  color: white;
+}
+#coder{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+#banner{
+  display: none;
+  position: fixed;
+  right: 10px;
+  top: 150px;
+  z-index: 16;
+  -webkit-animation: move-sign 1.5s ease-in-out infinite alternate;
+  -moz-animation: move-sign 1.5s ease-in-out infinite alternate;
+  animation: move-sign 1.5s ease-in-out infinite alternate;
+}
+
+#sponsorButton{
+  display: none;
+  position: fixed;
+  right: 40px;
+  top: 300px;
+  z-index: 20;
+  font-weight: bold;
+  height: 15%;
+  -webkit-animation: move-sign 1.5s ease-in-out infinite alternate;
+  -moz-animation: move-sign 1.5s ease-in-out infinite alternate;
+  animation: move-sign 1.5s ease-in-out infinite alternate;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+}
+#sponsorButton:hover{
+  cursor: pointer;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+  -webkit-animation: move-sign 1.5s ease-in-out infinite alternate;
+  -moz-animation: move-sign 1.5s ease-in-out infinite alternate;
+  animation: move-sign 1.5s ease-in-out infinite alternate;
+}
+
+
 .btn{
   margin: 1px;
 }
@@ -298,6 +373,47 @@ body, h1, h2, h3, h4, h5, h6 {
 .membersBanner{
   background-color: #255c36 !important;
 }
+@media(max-width:1000px) {
+  #banner-comp{
+    top: 100px;
+  }
+  #coder{
+    width: 150px;
+    height: 150px;
+    top: 100px;
+  }
+  #banner{
+    top: 185px;
+    width: 200px;
+    height: 200px;
+  }
+  #sponsorButton{
+      top: 280px;
+      width: 150px;
+      height: 70px;
+      font-weight: lighter;
+      font-size: 7px;
+  }
+}
+
+
+@media(max-width:400px) {
+  #coder{
+    top: 125px;
+  }
+  #banner{
+    top: 200px;
+    width: 150px;
+    height: 150px;
+  }
+  #sponsorButton{
+      top: 265px;
+      width: 100px;
+      height: 50px;
+      font-weight: lighter;
+      font-size: 7px;
+  }
+}
 @media(max-width:767px) {
   #pencil{
     top: 125px;
@@ -466,6 +582,15 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (max-device-width: 480px) {
+  #coder{
+    top: 120px;
+  }
+  #banner{
+    top: 225px;
+  }
+  #sponsorButton{
+      top: 320px;
+  }
   .joinLinks{
     margin-left: 10%;
   }
@@ -507,11 +632,25 @@ footer {
   padding: 50px 0;
   background-color: #f8f8f8;
 }
+
+@keyframes neon1 {
+  from {
+    box-shadow: 0 0 10px  #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 35px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 75px #fff;
+  }
+}
+
 @keyframes spin-opp {
     from {transform: rotate(0deg)}
     to {-ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
     transform: rotate(-5deg);}
+}
+@keyframes move-sign {
+  from {  transform: skewY(0deg)}
+  to   {transform: skewY(-4deg)}
 }
 @font-face {
     font-family: curvise;
